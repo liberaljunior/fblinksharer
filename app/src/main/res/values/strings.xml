@@ -5,4 +5,8 @@
     <string name="hello_world">Hello world!</string>
 	<string name="myurl_hint">Paste URL here</string>
 	<color name="black">#000000</color>
+	<string name="more1">More than 1 URLs detected</string>
+	<string name="usethis">Use this</string>
+	<string name="url">URL</string>
+	<string name="empty">Please enter or paste a URL</string>
 </resources>
