@@ -114,4 +114,32 @@ public class MainActivity extends Activity
 
 		dialog.show();
 	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu)
+	{
+		MenuInflater inf=getMenuInflater();
+		inf.inflate(R.menu.optionmenu, menu);
+		return super.onCreateOptionsMenu(menu);
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item)
+	{
+		if (item.getItemId() == R.id.about)
+		{
+			final Dialog dialog=new Dialog(context);
+			
+			dialog.setContentView(R.layout.about);
+			Button diaBtn=(Button) dialog.findViewById(R.id.btnokabout);
+			diaBtn.setOnClickListener(new OnClickListener(){
+				@Override
+				public void onClick(View v){
+					dialog.dismiss();
+				}
+			});
+			dialog.show();
+		}
+		return super.onOptionsItemSelected(item);
+	}
 }

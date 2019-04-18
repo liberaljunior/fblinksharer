@@ -9,4 +9,7 @@
 	<string name="usethis">Use this</string>
 	<string name="url">URL</string>
 	<string name="empty">Please enter or paste a URL</string>
+	<string name="about">About Facebook Link Sharer</string>
+	<string name="abouttext">Version 1.0 April 2019.
+Copyright (c) 2019 by Majolelo.com</string>
 </resources>
