@@ -10,6 +10,7 @@
 	<string name="url">URL</string>
 	<string name="empty">Please enter or paste a URL</string>
 	<string name="about">About Facebook Link Sharer</string>
-	<string name="abouttext">Version 1.0 April 2019.
-Copyright (c) 2019 by Majolelo.com</string>
+	<string name="abouttext">Version 1.1 May 2021.\n\n
+			Change note: Version 1.1 - App to release from the memory after clicking \'Share to Facebook\'.\n\n
+Copyright (c) 2021 by Majolelo.com</string>
 </resources>
